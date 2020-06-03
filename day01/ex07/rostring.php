@@ -3,7 +3,6 @@
 function ft_split($string) {
 	$string = explode(" ", $string);
 	$string = array_diff($string, ["", " "]);
-	$string = array_unique($string);
 	return ($string);
 }
 
